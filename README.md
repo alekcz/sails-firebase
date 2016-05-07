@@ -1,7 +1,10 @@
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png) 
 
 # sails-firebase
-Waterline adapter for Firebase.
+[![Build Status](https://travis-ci.org/alekcz/sails-firebase.png?branch=master)](https://travis-ci.org/alekcz/sails-firebase) [![NPM version](https://badge.fury.io/js/sails-firebase.png)](http://badge.fury.io/js/sails-firebase)
+
+A [Waterline](https://github.com/balderdashy/waterline) adapter for Firebase. May be used in a [Sails](https://github.com/balderdashy/sails) app or anything using Waterline for the ORM.
+
 
 THIS IS A WORK IN PROGRESS
 
