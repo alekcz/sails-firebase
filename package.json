@@ -1,7 +1,7 @@
 {
   "name": "sails-firebase",
   "version": "0.0.1",
-  "description": "Firebase adapter for Sails / Waterline",
+  "description": "Sails / Waterline adapter for Firebase.",
   "main": "lib/adapter.js",
   "scripts": {
     "test": "node test/integration/runner -R spec -b"

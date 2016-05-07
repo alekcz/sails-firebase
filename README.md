@@ -5,10 +5,17 @@
 
 A [Waterline](https://github.com/balderdashy/waterline) adapter for Firebase. May be used in a [Sails](https://github.com/balderdashy/sails) app or anything using Waterline for the ORM.
 
-
+## Status
 THIS IS A WORK IN PROGRESS
 
+- sails-firebase is currently a `semantic` only adapter
+- Create is mostly functional
+- Find is rudimentary
+- Update and Destroy are not yet implemented
+
+
 ## Installation
+NOT YET ON NPM
 
 Install from NPM.
 
@@ -18,7 +25,7 @@ $ npm install sails-firebase --save
 
 ## Sails Configuration
 
-### Using with Sails v0.11.x (>= 0.10.x)
+### Using with Sails v0.11.x
 
 Add the following config to the `config/connections.js` file:
 
