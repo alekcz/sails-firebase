@@ -2,7 +2,7 @@
   "name": "sails-firebase",
   "version": "0.0.1",
   "description": "Firebase adapter for Sails / Waterline",
-  "main": "index.js",
+  "main": "lib/adapter.js",
   "scripts": {
     "test": "node test/integration/runner -R spec -b"
   },
@@ -25,7 +25,9 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "firebase": "^2.4.2",
-    "firebase-token-generator": "^2.0.0"
+    "firebase-token-generator": "^2.0.0",
+    "waterline-criteria": "^1.0.0",
+    "waterline-errors": "^0.10.1"
   },
   "devDependencies": {
     "waterline-adapter-tests": "git://github.com/balderdashy/waterline-adapter-tests.git#associations",
